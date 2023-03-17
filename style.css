@@ -1,3 +1,10 @@
+container{
+    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
 .img{
     position: relative;
     right: 70%;
@@ -7,21 +14,44 @@
 background-color: rgb(154, 185, 177);
 padding: 80;
 position: relative;
+border: #dd6c0f;
+border-style: double;
 }
 
 .col-1{
     background-color: rgb(52, 75, 82);
+    
      
+}
+.list-group-item{
+    padding: auto;
+    background-color: rgb(154, 185, 177);
+    margin-top: 2%;
+    margin-left: auto;
+    margin-bottom: 2%;
+    margin-right: auto;
+    
+}
+.list-group-item-action{
+    border-color:#dd0f80;
+    border-style: double;
+    
+    
 }
 .col-2{
     background-color: rgb(100, 134, 134);
-    
+    overflow: hidden;
+
 }
 .d-flex{
     border: 2px solid rgb(216, 75, 122);
+    border-style: double;
 }
 .btn-outline-success{
     background-color: rgb(202, 124, 176);
+    border: #dd6c0f;
+    border-style: double;
+
 }
 .card{
     background-color: rgb(100, 134, 134);
@@ -35,15 +65,33 @@ position: relative;
     color: #000;
     text-align: center;
     background: #D9D9D9;
+    border: #113cc7;
+    border-style:outset
 }
-
-
 
 
 .col-3{
-    background-color:rgb(129, 175, 154) ;
+    background-color:rgb(129, 157, 154) ;
 }
 .form-control{
-    background-color: rgb(217, 217, 217);
+    background-color: #d9d9d9;
+    overflow: hidden;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border: #dd0f80;
+    border-style: double;
+    
+
 }
+
+.btn-primary{
+    background-color: rgb(216, 75, 122);
+    border-color: #dd6c0f;
+    border-style: double;
+}
+.card-body{
+   border: solid #dd6c0f;
+   margin-top: 2%;
+}
+
 
